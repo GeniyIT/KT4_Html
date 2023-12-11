@@ -1,0 +1,246 @@
+$color1: rgb(14, 14, 14);
+$color2: rgb(84, 127, 196);
+$color3: rgb(51, 51, 51);
+$mont: 'Montserrat', sans-serif;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    background-image: url(https://images01.nicepage.io/79/93/79933c957fc3f6515847a8741418f7dc.jpeg
+    );
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+.nav {
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav_title {
+    text-align: center;
+    font-family: $mont;
+    font-weight: 800;
+    font-size: 62px;
+    width: 50%;
+}
+.nav_text {
+    text-align: center;
+    font-family: $mont;
+    font-weight: 800;
+    font-size: 28px;
+}
+.section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section1_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    gap: 100px;
+}
+.section1_wrapper1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section1_wrapper_img {
+    width: 600px;
+}
+.section1_wrapper_title {
+    font-family: $mont;
+    font-size: 28px;
+    font-weight: 800;
+}
+.section1_wrapper_paragraph {
+    font-family: $mont;
+    font-size: 16px;
+}
+.section1_wrapper_button {
+    padding: 12px 22px;
+    border: 2px solid $color1;
+    background: none;
+    font-family: $mont;
+    font-size: 16px;
+    font-weight: 300;
+    width: 50%;
+}
+.section1_wrapper_button:hover {
+    color: white;
+    background-color: $color1;
+}
+.section2_title {
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-family: $mont;
+    font-weight: 800;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: $color2;
+    gap: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section2_wrapper {
+    display: flex;
+}
+.section2_wrapper_img {
+    width: 600px;
+    height: 500px;
+}
+.section2_wrapper_block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section2_wrapper_block_item_img {
+    width: 48px;
+}
+.section2_wrapper_block_item {
+    display: flex;
+    gap: 30px;
+}
+.section2_wrapper_block_item_text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section2_wrapper_block_item_title {
+    color: white;
+    font-family: $mont;
+}
+.section2_wrapper_block_item_paragrapg {
+    color: white;
+    font-family: $mont;
+}
+.section3 {
+    background-image: url(https://images01.nicepage.io/51/b3/51b3bdc24b55471588deb60b32cb4f8f.jpeg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-top: 100px;
+    gap:20px;
+}
+.section3_title {
+    color: white;
+    font-family: $mont;
+    font-size: 28px;
+    width: 40%;
+    font-weight: 800;
+}
+.section3_text {
+    color: white;
+    font-family: $mont;
+    font-size: 16px;
+    width: 40%;
+}
+
+.section3_button {
+    padding: 12px 22px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    font-family: $mont;
+    font-size: 16px;
+    font-weight: 300;
+    width: 20%; 
+    color: white; 
+}
+.section3_button:hover {
+    color: $color1;
+    background-color: rgb(255, 255, 255);
+}
+.section4 {
+    background-image: url(https://images01.nicepage.io/16/48/1648bc07fad78d3f3078278bfd2411e9.jpeg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap:20px;
+}
+.section4_title {
+    color: white;
+    font-family: $mont;
+    font-size: 28px;
+    width: 40%;
+    font-weight: 800;
+    text-align: right;
+}
+.section4_text {
+    color: white;
+    font-family: $mont;
+    font-size: 16px;
+    width: 40%;
+    text-align: right;
+}
+
+.section4_button {
+    padding: 12px 22px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    font-family: $mont;
+    font-size: 16px;
+    font-weight: 300;
+    width: 20%; 
+    color: white; 
+}
+.section4_button:hover {
+    color: $color1;
+    background-color: rgb(255, 255, 255);
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color3;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: $mont;
+}
+.link:hover {
+    text-decoration: underline;
+}
